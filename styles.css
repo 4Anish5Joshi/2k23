@@ -1,0 +1,97 @@
+/* html tags */
+
+body{
+    text-align: center;
+}
+h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 3rem;
+    color: aqua;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* html classes */
+
+.ee{
+  color: aquamarine;
+}
+.coming-soon {
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.plans{
+    margin-top: 30px;
+    text-align: center;
+    color: greenyellow;
+}
+
+.countdown {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    /* margin-bottom: 40%; */
+    font-weight: bold;
+  }
+
+.day,.hour,.minute,.second {
+  font-size: 1.8rem;
+  padding: 20px 60px 10px 60px;
+}
+
+.card-body, .card-header {
+  border: solid;
+  border-color: black;
+  /* box-shadow: 4px 4px 4px chartreuse; */
+  -webkit-box-shadow: 15px 15px 15px #fff;
+        -moz-box-shadow: 15px 15px 15px #fff;
+        box-shadow: 0 0 16px cyan;
+}
+/* .bg-img{
+    background-image: url(e.jpg);
+    filter: blur(3px);
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+} */
+
+.hhh{
+    padding: 35px 100px;
+    margin-top: 500px;
+}
+
+.vvideo{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9){
+  .vvideo{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio:16/9){
+  .vvideo{
+    width: auto;
+    height: 100;
+  }
+}
